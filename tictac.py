@@ -9,6 +9,6 @@ elif (user == "rock" and com_choice == "scissor") or \
      (user == "scissor" and com_choice == "paper"):
     result = "You win!...."
 else:
-    result: "Computer win.."
+    print("computer win....")
 print("Computer's Choice: ", com_choice)
 print(result)
